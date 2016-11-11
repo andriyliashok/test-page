@@ -1,0 +1,95 @@
+.page-body .main-projects{
+  display: flex;
+  color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.main-projects .container{
+  max-width: 585px;
+}
+
+.main-projects .best-projects .best-projects-left{
+  margin-right: 0;
+}
+
+.main-projects .best-reconstruct .best-projects-right{
+  margin-left: 0;
+}
+
+.main-projects .main-projects-text span{
+  font-weight: 400;
+}
+
+.main-projects .best-projects, .best-reconstruct{
+  flex-basis: 50%;
+
+}
+.main-projects .best-projects{
+  background: url("images/page-image-left.png") no-repeat center center;
+
+}
+
+.main-projects .best-reconstruct{
+  background: url("images/page-image-right.png") no-repeat center center;
+  width: 100%;
+}
+
+.page-body .main-projects .header-link a{
+  margin: 20px 0 100px;
+}
+
+.another-projects .another-projects-text{
+  text-align: center;
+  font-size: 3em;
+}
+
+.another-projects-columns{
+  display: flex;
+  justify-content: space-between;
+}
+
+.another-projects-column{
+  flex-basis: 45%;
+}
+
+.another-projects-column .cols {
+  margin: 40px 0;
+  display: flex;
+}
+
+.another-projects-column .cols a{
+  text-decoration: none;
+  color: #000000;
+  display: block;
+}
+
+.another-projects-column .cols:hover h3 a{
+  text-decoration: underline;
+}
+
+.another-projects-column .cols p a{
+  color: #949494;
+}
+
+.another-projects-column .cols p {
+  margin: 0;
+
+}
+
+.another-projects-column .cols-text h3{
+  line-height: initial;
+  margin: 0;
+}
+
+.another-projects-column .cols-text h3 a{
+  padding-bottom: 20px;
+
+}
+
+.another-projects-column .cols-image a{
+  padding-right: 30px;
+}
+
+.page-body .header-link a{
+  margin: 80px auto;
+}
